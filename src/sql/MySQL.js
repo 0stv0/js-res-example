@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 const con   = mysql.createConnection({
     port: 3306,
-    host: '54.38.50.59',
-    user: 'www13314_portfolio',
-    database: 'www13314_portfolio',
-    password: 'LpgwK9tLNAqbQkw6gtqi'
+    host: 'localhost',
+    user: 'root',
+    database: 'database',
+    password: ''
 });
 const query = async(sql, keys) =>
 {
